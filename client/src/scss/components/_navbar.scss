@@ -1,0 +1,51 @@
+.navbar {
+  max-height: 65px;
+  padding: .8rem 1rem;
+  font-size: 2.5rem;
+  color: darken($secondary, 15%);
+  background-color: $dark;
+  display: flex;
+
+  &__header {
+    // font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    // font-family: 'Roboto', sans-serif;
+    justify-self: center;
+    align-self: center;
+    padding-right: 1.2rem;
+  }
+
+  &-nav {
+    display: flex;
+
+    .navbar__item {
+      padding: 1.2rem;
+      font-family: 'Roboto', sans-serif;
+      justify-self: center;
+      align-self: center;
+
+      a {
+        color: $secondary;
+      }
+      a:hover {
+        color: #fff;
+      }
+
+    }
+  }
+
+  .nav-right {
+    margin: 0 0 0 auto;
+  }
+
+  .nav-left {
+    margin: 0 auto 0 0;
+  }
+
+  .nav-center {
+    margin: 0 auto;
+  }
+
+  
+
+}

@@ -1,0 +1,22 @@
+.loading {
+  display: flex;
+  color: black;
+  flex-direction: column;
+
+  .loading__text {
+    font-size: 3rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .loading__spinner {
+    font-size: 3rem;
+    color: purple;
+    justify-self: center;
+    align-self: center;
+  }
+
+}
+
